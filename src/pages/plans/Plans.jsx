@@ -1,4 +1,5 @@
 import React from 'react'
+import './plans.css'
 
 const Plans = () => {
     return (
