@@ -2,6 +2,7 @@ import { Link, NavLink } from 'react-router-dom'
 import './navbar.css'
 import Logo from '../images/logo.png'
 import { links } from '../data'
+import { GoThreeBars } from 'react-icons/go'
 
 const Navbar = () => {
     return (
@@ -23,7 +24,9 @@ const Navbar = () => {
                     }
                 </ul>
 
-                
+                <button className="nav__toggle-btn">
+                    <GoThreeBars />
+                </button>
             </div>
         </nav>
     )
