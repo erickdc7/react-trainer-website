@@ -13,6 +13,7 @@ import Navbar from './components/Navbar'
 const App = () => {
 	return (
 		<BrowserRouter>
+			<Navbar />
 			<Home />
 			<About />
 			<Contact />
