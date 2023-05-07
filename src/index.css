@@ -28,3 +28,8 @@
 
   --transition: all 500ms ease;
 }
+
+/* GENERAL STYLES */
+body {
+  font-family: "Montserrat", sans-serif;
+}
