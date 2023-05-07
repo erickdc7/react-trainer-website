@@ -22,3 +22,7 @@ nav {
   align-items: center;
   position: relative;
 }
+
+.logo {
+  width: 7rem;
+}
