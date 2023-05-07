@@ -26,3 +26,17 @@ nav {
 .logo {
   width: 7rem;
 }
+
+.nav__links {
+  display: flex;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+.nav__links a {
+  transition: var(--transition);
+}
+
+.nav__links a:hover {
+  color: var(--color-secondary);
+}
