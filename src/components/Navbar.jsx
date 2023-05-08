@@ -24,6 +24,7 @@ const Navbar = () => {
                                     <NavLink
                                         to={path}
                                         className={({ isActive }) => isActive ? 'active-nav' : ''}
+                                        onClick={() => setIsNavShowing(prev => !prev)}
                                     >
                                         {name}
                                     </NavLink>
@@ -33,7 +34,7 @@ const Navbar = () => {
                     }
                 </ul>
 
-                <button className="nav__toggle-btn" onClick={() => setIsNavShowing(!isNavShowing)}>
+                <button className="nav__toggle-btn" onClick={() => setIsNavShowing(prev => !prev)}>
                     {
                         isNavShowing ? <MdOutlineClose /> : <GoThreeBars />
                     }
