@@ -4,7 +4,7 @@ import Image from '../images/main_header.png'
 
 const MainHeader = () => {
     return (
-        <header className='main__better'>
+        <header className='main__header'>
             <div className="container main__header-container">
                 <div className="main__header-left">
                     <h4>#100DaysOfWorkOut</h4>
