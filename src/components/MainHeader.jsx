@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Image from '../images/main_header.png'
 
-const Header = () => {
+const MainHeader = () => {
     return (
         <header className='main__better'>
             <div className="container main__header-container">
@@ -26,4 +26,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default MainHeader
