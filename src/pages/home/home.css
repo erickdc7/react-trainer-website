@@ -5,3 +5,12 @@
   place-items: center;
   margin-top: 3rem;
 }
+
+.main__header-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6rem;
+}
