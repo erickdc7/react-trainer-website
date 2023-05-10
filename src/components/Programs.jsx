@@ -4,6 +4,7 @@ import SectionHead from './SectionHead'
 import { programs } from '../data'
 import Card from '../UI/Card'
 import { Link } from 'react-router-dom'
+import { AiFillCaretRight } from 'react-icons/ai'
 
 const Programs = () => {
     return (
@@ -24,7 +25,7 @@ const Programs = () => {
                                 <h4>{title}</h4>
                                 <small>{info}</small>
                                 <Link to={path} className='btn sm'>
-                                    Learn more
+                                    Learn more <AiFillCaretRight />
                                 </Link>
                             </Card>
                         )
