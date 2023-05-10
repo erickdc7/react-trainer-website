@@ -1,8 +1,11 @@
 import React from 'react'
 
-const SectionHead = () => {
+const SectionHead = ({ icon, title, className }) => {
     return (
-        <div>SectionHead</div>
+        <div className="section__head">
+            <span>{icon}</span>
+            <h2>{title}</h2>
+        </div>
     )
 }
 
