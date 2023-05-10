@@ -1,8 +1,16 @@
 import React from 'react'
+import { FaCrown } from 'react-icons/fa'
+
 
 const Programs = () => {
     return (
-        <div>Programs</div>
+        <section className="programs">
+            <div className="container programs__container">
+                <div className="programs__header">
+                    <span>{<FaCrown />}</span>
+                </div>
+            </div>
+        </section>
     )
 }
 
