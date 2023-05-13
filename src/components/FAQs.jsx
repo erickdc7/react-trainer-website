@@ -6,7 +6,20 @@ import FAQ from './FAQ'
 
 const FAQs = () => {
     return (
-        <div>FAQs</div>
+        <section className="faqs">
+            <div className="container faqs__container">
+                <SectionHead
+                    icon={<FaQuestion />}
+                    title="FAQs"
+                />
+
+                <div className="faqs__wrapper">
+                    {
+
+                    }
+                </div>
+            </div>
+        </section>
     )
 }
 
