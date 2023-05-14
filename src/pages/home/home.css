@@ -180,3 +180,8 @@
   border-radius: 50%;
   border-color: var(--color-gray-400);
 }
+
+.testimonial__quote {
+  font-style: italic;
+  margin: 1rem 0 2rem;
+}
