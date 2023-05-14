@@ -185,3 +185,7 @@
   font-style: italic;
   margin: 1rem 0 2rem;
 }
+
+.card small.testimonial__title {
+  margin-top: 0.3rem;
+}
