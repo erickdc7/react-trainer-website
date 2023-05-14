@@ -156,3 +156,9 @@
 .testimonials__head {
   justify-content: center;
 }
+
+.card.testimonial {
+  position: relative;
+  text-align: left;
+  margin-top: 5rem;
+}
