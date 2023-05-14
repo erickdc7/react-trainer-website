@@ -27,6 +27,16 @@ const Testimonials = () => {
                     <h5>{name}</h5>
                     <small className='testimonial__title'>{job}</small>
                 </Card>
+
+                <div className="testimonials__btn-container">
+                    <button className="testimonials__btn">
+                        <IoIosArrowDropleftCircle />
+                    </button>
+
+                    <button className="testimonials__btn">
+                        <IoIosArrowDroprightCircle />
+                    </button>
+                </div>
             </div>
         </section>
     )
