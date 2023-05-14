@@ -152,3 +152,7 @@
   width: 50rem;
   margin-inline: auto; /* margin left and right: auto */
 }
+
+.testimonials__head {
+  justify-content: center;
+}
