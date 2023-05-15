@@ -266,3 +266,11 @@ footer {
   border-color: var(--color-gray-100);
   background-color: transparent;
 }
+
+.footer__copyright {
+  color: var(--color-gray-100);
+  text-align: center;
+  padding: 1.5rem 0;
+  border-top: 2px solid var(--color-primary-variant);
+  margin-top: 5rem;
+}
