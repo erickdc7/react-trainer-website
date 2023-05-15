@@ -241,3 +241,28 @@ footer {
   margin-bottom: 0.6rem;
   font-size: 1rem;
 }
+
+.footer__socials {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer__socials a {
+  background: var(--color-gray-100);
+  padding: 0.7rem;
+  border: 1px solid transparent;
+  border-radius: 0.6rem;
+  transition: var(--transition);
+  display: inherit;
+}
+
+.footer__socials a svg {
+  color: var(--color-gray-600);
+}
+
+.footer__socials a:hover {
+  border-color: var(--color-gray-100);
+  background-color: transparent;
+}
