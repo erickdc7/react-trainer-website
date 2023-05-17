@@ -310,4 +310,9 @@ footer {
   .values__image {
     display: none;
   }
+
+  /* FAQs */
+  .faqs__wrapper {
+    grid-template-columns: 1fr;
+  }
 }
