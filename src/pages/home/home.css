@@ -320,4 +320,10 @@ footer {
   .testimonials {
     width: 75%;
   }
+
+  /* FOOTER */
+  .footer__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
 }
