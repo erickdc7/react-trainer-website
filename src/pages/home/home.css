@@ -358,4 +358,15 @@ footer {
     width: 84%;
     margin: 0 auto;
   }
+
+  /* VALUES */
+  .values__wrapper {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .card.values__value {
+    width: 84%;
+    margin-inline: auto; /* margin left and right: auto */
+  }
 }
