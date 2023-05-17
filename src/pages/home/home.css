@@ -315,4 +315,9 @@ footer {
   .faqs__wrapper {
     grid-template-columns: 1fr;
   }
+
+  /* TESTIMONIALS */
+  .testimonials {
+    width: 75%;
+  }
 }
