@@ -346,4 +346,16 @@ footer {
   .main__header-container {
     grid-template-columns: 1fr;
   }
+
+  /* PROGRAMS */
+  .programs__wrapper {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .programs__program {
+    width: 84%;
+    margin: 0 auto;
+  }
 }
