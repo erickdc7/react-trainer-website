@@ -295,4 +295,19 @@ footer {
   .programs__wrapper {
     grid-template-columns: 1fr 1fr;
   }
+
+  /* VALUES */
+  .values__container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .values__wrapper {
+    gap: 4rem 3rem;
+  }
+
+  .values__image {
+    display: none;
+  }
 }
