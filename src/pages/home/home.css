@@ -290,4 +290,9 @@ footer {
     width: 16rem;
     height: 16rem;
   }
+
+  /* PROGRAMS */
+  .programs__wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
 }
