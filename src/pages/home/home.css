@@ -369,4 +369,10 @@ footer {
     width: 84%;
     margin-inline: auto; /* margin left and right: auto */
   }
+
+  /* FAQs */
+  .faqs__wrapper {
+    gap: 1rem;
+    margin-top: 3rem;
+  }
 }
