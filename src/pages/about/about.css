@@ -50,4 +50,8 @@
     grid-template-columns: 1fr;
     gap: 3rem;
   }
+
+  .about__vision .about__section-image {
+    grid-row: 1;
+  }
 }
