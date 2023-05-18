@@ -161,6 +161,13 @@ section {
   font-weight: 300;
 }
 
+.header {
+  margin-top: 5rem;
+  height: 20rem;
+  overflow: hidden;
+  border-bottom: 2px solid var(--color-gray-400);
+}
+
 /* MEDIA QUERIES (medium screens) */
 @media screen and (max-width: 1024px) {
   .container {
