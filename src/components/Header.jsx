@@ -1,8 +1,19 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({ title, image, children }) => {
     return (
-        <div>Header</div>
+        <header className='header'>
+            <div className="header__container">
+                <div className="header__container-bg">
+                    <img src={image} alt="header background" />
+                </div>
+
+                <div className="header__content">
+                    <h2>{title}</h2>
+                    <p>{children}</p>
+                </div>
+            </div>
+        </header>
     )
 }
 
