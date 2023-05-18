@@ -55,3 +55,11 @@
     grid-row: 1;
   }
 }
+
+/* MEDIA QUERIES (small screens) */
+@media screen and (max-width: 600px) {
+  .about__section-image {
+    width: 80%;
+    margin-inline: auto;
+  }
+}
