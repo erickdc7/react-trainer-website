@@ -177,6 +177,15 @@ section {
   background: #000;
 }
 
+.header__container-bg {
+  position: absolute;
+  width: 100%;
+}
+
+.header__container-bg img {
+  opacity: 0.5;
+}
+
 /* MEDIA QUERIES (medium screens) */
 @media screen and (max-width: 1024px) {
   .container {
