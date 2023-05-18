@@ -12,3 +12,11 @@
 .about__section-image:hover {
   transform: skew(0);
 }
+
+.about__section-content h1 {
+  margin-bottom: 2rem;
+}
+
+.about__section-content p {
+  margin-bottom: 1rem;
+}
