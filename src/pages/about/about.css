@@ -20,3 +20,10 @@
 .about__section-content p {
   margin-bottom: 1rem;
 }
+
+.about__story-container,
+.about__mission-container {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap: 10%;
+}
