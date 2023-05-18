@@ -215,6 +215,10 @@ section {
   h2 {
     font-size: 1.6rem;
   }
+
+  .header__content {
+    width: 76%;
+  }
 }
 
 /* MEDIA QUERIES (small screens) */
