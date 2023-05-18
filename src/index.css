@@ -235,4 +235,13 @@ section {
   .header {
     height: fit-content;
   }
+
+  .header__content {
+    width: var(--container-width-md);
+    padding: 3rem 0;
+  }
+
+  .header__content p {
+    font-size: 0.85;
+  }
 }
