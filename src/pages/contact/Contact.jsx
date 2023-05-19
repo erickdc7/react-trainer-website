@@ -16,15 +16,15 @@ const Contact = () => {
             <section className="contact">
                 <div className="container contact__container">
                     <div className="contact__wrapper">
-                        <a href="#" target='_blank' rel='noreferrer noopener'>
+                        <a href="mailto:support@egattor.com" target='_blank' rel='noreferrer noopener'>
                             <MdEmail />
                         </a>
 
-                        <a href="#" target='_blank' rel='noreferrer noopener'>
+                        <a href="http://m.me/ernest_achiever" target='_blank' rel='noreferrer noopener'>
                             <BsMessenger />
                         </a>
 
-                        <a href="#" target='_blank' rel='noreferrer noopener'>
+                        <a href="https://wa.me/+233557097546" target='_blank' rel='noreferrer noopener'>
                             <IoLogoWhatsapp />
                         </a>
                     </div>
