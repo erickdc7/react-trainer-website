@@ -16,6 +16,20 @@ const Gallery = () => {
             <Header title="Our Gallery" image={HeaderImage}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis magni nulla vel unde optio laborum animi repudiandae totam, cum obcaecati.
             </Header>
+
+            <section className="gallery">
+                <div className="container gallery__container">
+                    {
+                        images.map((image, index) => {
+                            return (
+                                <article key={index}>
+                                    <img src={image} alt={`gallery img ${index + 1}`} />
+                                </article>
+                            )
+                        })
+                    }
+                </div>
+            </section>
         </>
     )
 }
