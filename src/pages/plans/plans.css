@@ -11,3 +11,8 @@
 .plan small {
   margin-bottom: 2rem;
 }
+
+.plan h1 {
+  color: var(--color-primary-variant);
+  display: inline;
+}
