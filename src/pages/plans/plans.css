@@ -34,3 +34,8 @@
 .plan p.disabled {
   color: var(--color-gray-400);
 }
+
+.plan button {
+  margin-top: 3rem;
+  cursor: pointer;
+}
