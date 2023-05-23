@@ -53,4 +53,9 @@
   .plans__container {
     grid-template-columns: 1fr;
   }
+
+  .plan {
+    width: 90%;
+    margin-inline: auto; /* margin left and right: auto */
+  }
 }
