@@ -21,3 +21,7 @@
   display: inline;
   color: var(--color-gray-400);
 }
+
+.plan h4 {
+  margin-top: 2rem;
+}
