@@ -25,3 +25,8 @@
 .plan h4 {
   margin-top: 2rem;
 }
+
+.plan p {
+  margin-top: 1rem;
+  color: var(--color-gray-100);
+}
