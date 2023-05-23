@@ -16,3 +16,8 @@
   color: var(--color-primary-variant);
   display: inline;
 }
+
+.plan h2 {
+  display: inline;
+  color: var(--color-gray-400);
+}
