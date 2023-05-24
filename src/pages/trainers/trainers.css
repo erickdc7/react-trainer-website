@@ -55,4 +55,9 @@
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+
+  .card.trainer {
+    width: 90%;
+    margin-inline: auto; /* margin left and right: auto */
+  }
 }
