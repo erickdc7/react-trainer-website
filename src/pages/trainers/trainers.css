@@ -7,3 +7,8 @@
 .card.trainer {
   padding: 1rem;
 }
+
+.trainer__img {
+  border-radius: 0 2rem;
+  overflow: hidden;
+}
