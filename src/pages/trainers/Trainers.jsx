@@ -14,6 +14,18 @@ const Trainers = () => {
             <Header title="Our Trainers" image={HeaderImage}>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio accusamus cum nihil quasi dolores molestias nisi veritatis adipisci fuga corrupti!
             </Header>
+
+            <section className="trainers">
+                <div className="container trainers__container">
+                    {
+                        trainers.map(({ id, image, name, job, socials }) => {
+                            return (
+                                <div></div>
+                            )
+                        })
+                    }
+                </div>
+            </section>
         </>
     )
 }
