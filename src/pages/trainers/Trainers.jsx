@@ -7,6 +7,7 @@ import { BsInstagram } from 'react-icons/bs'
 import { AiOutlineTwitter } from 'react-icons/ai'
 import { FaFacebookF } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
+import Trainer from '../../components/Trainer'
 
 const Trainers = () => {
     return (
@@ -20,7 +21,20 @@ const Trainers = () => {
                     {
                         trainers.map(({ id, image, name, job, socials }) => {
                             return (
-                                <div></div>
+                                <Trainer
+                                    key={id}
+                                    image={image}
+                                    name={name}
+                                    job={job}
+                                    socials={
+                                        [
+                                            { icon: <BsInstagram />, link: socials[0] },
+                                            { icon: <AiOutlineTwitter />, link: socials[1] },
+                                            { icon: <FaFacebookF />, link: socials[2] },
+                                            { icon: <FaLinkedin />, link: socials[3] },
+                                        ]
+                                    }
+                                />
                             )
                         })
                     }

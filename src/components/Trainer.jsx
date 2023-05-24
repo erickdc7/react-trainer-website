@@ -14,7 +14,12 @@ const Trainer = ({ image, name, job, socials }) => {
                 {
                     socials.map(({ icon, link, }, index) => {
                         return (
-                            <a key={index} href={link} target='_blank' rel='noreferrer noopener'>
+                            <a
+                                key={index}
+                                href={link}
+                                target='_blank'
+                                rel='noreferrer noopener'
+                            >
                                 {icon}
                             </a>
                         )
