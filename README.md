@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Responsive React Js 18 & React Router 6 Project
+This design is inspired by this [video](https://youtu.be/FiWby-T0Ec0), which belongs to [EGATOR](https://www.youtube.com/@EGATORTUTORIALS).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies
+This web page was made with the following technologies:
+- HTML5
+- CSS3
+- JavaScript
+- React
+- React DOM
+- React Icons
+- React Router DOM
 
-## Available Scripts
+## Pages
+This project contains 7 pages: **Home**, **About**, **Gallery**, **Plans**, **Trainers** and **Contact**.
 
-In the project directory, you can run:
+### Home
+#### On this page, you will find various sections, such as the main section, the programs section, the values section, FAQs, testimonials, and finally, the footer section.
+![preview home page](src/images/home_page.jpeg)
 
-### `npm start`
+### About
+#### On this page, you will find several sections, such as the main section where you will see the page title and a brief description, and in the following section, you will find the story, mission, and vision. Finally, there is the footer section.
+![preview about page](src/images/about_page.jpeg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Gallery
+#### On this page, you will see several sections, such as the main section where you will find the page title and a brief description, and in the next section, you will see a gallery of images. Finally, there is the footer section.
+![preview gallery page](src/images/gallery_page.jpeg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Plans
+#### On this page, you will see several sections, such as the main section where you will find the page title and a brief description. In the following section, you will find the different plans with their prices and what they include. Finally, there is the footer section.
+![preview plans page](src/images/plans_page.jpeg)
 
-### `npm test`
+### Trainers
+#### On this page, you will find several sections, such as the main section where you will see the page title and a brief description. In the following section, you will see the different trainers and their social media links. Finally, there is the footer section.
+![preview trainers page](src/images/trainers_page.jpeg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Contact
+#### On this page, you will find several sections, such as the main section where you will see the page title and a brief description. In the next section, you will find the ways you can contact us. Finally, there is the footer section.
+![preview contact page](src/images/contact_page.jpeg)
